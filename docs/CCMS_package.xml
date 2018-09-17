@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>*</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApprovalProcess</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>AuthProvider</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>CCMS</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>User.External_Data_Source__c</members>
+        <members>User.External_ID__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>CCMS_CIIT_Setting.CIIT</members>
+        <members>CCMS_CIIT_Setting.CSIS</members>
+        <members>CCMS_CIIT_Setting.Title</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>CCMS_Activity__c</members>
+        <members>CCMS_Attachment__c</members>
+        <members>CCMS_CIIT_Account__c</members>
+        <members>CCMS_CIIT_Enquiry__c</members>
+        <members>CCMS_CIIT_Setting__mdt</members>
+        <members>CCMS_CIIT_Setting__mdt</members>
+        <members>CCMS_CIIT_User_Register__c</members>
+        <members>CCMS_Case_Entity__c</members>
+        <members>CCMS_Case_Team_Member__c</members>
+        <members>CCMS_Case__c</members>
+        <members>CCMS_Company__c</members>
+        <members>CCMS_Contact_Information__c</members>
+        <members>CCMS_Land_Parcels_Search__c</members>
+        <members>CCMS_Legislation__c</members>
+        <members>CCMS_Linked_Attachment__c</members>
+        <members>CCMS_Linked_Land_Parcel__c</members>
+        <members>CCMS_Linked_POI__c</members>
+        <members>CCMS_Logic_Disable_Flags__c</members>
+        <members>CCMS_Outcome__c</members>
+        <members>CCMS_Person__c</members>
+        <members>CCMS_Prioritization_Assessment__c</members>
+        <members>CCMS_Reference__c</members>
+        <members>CCMS_Region__c</members>
+        <members>CCMS_Regional_Officer__c</members>
+        <members>CCMS_Related_Entity__c</members>
+        <members>CCMS_Running_Log__c</members>
+        <members>CCMS_Spatial_Information__c</members>
+        <members>CCMS_Suburb_Alias__c</members>
+        <members>CCMS_Suburb__c</members>
+        <members>CCMS_Vehicle_Information__c</members>
+        <members>Org_Application_Log__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>CCMS_Dashboard/CCMS_My_Cases</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>DuplicateRule</name>
+    </types>
+    <types>
+        <members>CCMS_Templates/Activity_Approval_Rejected</members>
+        <members>CCMS_Templates/Activity_Reminder_Email</members>
+        <members>CCMS_Templates/Approve_Activity</members>
+        <members>CCMS_Templates/Approve_Outcome</members>
+        <members>CCMS_Templates/CCMS_CIIT_Enquiry_Creation_Notify</members>
+        <members>CCMS_Templates/CCMS_CIIT_Forgot_Password</members>
+        <members>CCMS_Templates/CCMS_CIIT_Send_Compliance_Search_Result</members>
+        <members>CCMS_Templates/CCMS_CIIT_User_Register_Approval_Request</members>
+        <members>CCMS_Templates/CCMS_CIIT_Welcome</members>
+        <members>CCMS_Templates/CaseCloseApprovalRejection</members>
+        <members>CCMS_Templates/CaseCloseApprovalRequest</members>
+        <members>CCMS_Templates/CaseDuplicateEmailNotification</members>
+        <members>CCMS_Templates/CaseEarlyTerminateApprovalRejection</members>
+        <members>CCMS_Templates/CaseEarlyTerminateApprovalRequest</members>
+        <members>CCMS_Templates/CasesWithoutLandParcel</members>
+        <members>CCMS_Templates/CasesWithoutLocationAndLegislation</members>
+        <members>CCMS_Templates/CautionApprovalAddReject</members>
+        <members>CCMS_Templates/CautionApprovalRequest</members>
+        <members>CCMS_Templates/CautionRejectionRequest</members>
+        <members>CCMS_Templates/CautionRemoveRejection</members>
+        <members>CCMS_Templates/DuplicateCaseEmailNotification</members>
+        <members>CCMS_Templates/Outcome_Approval</members>
+        <members>CCMS_Templates/Outcome_Approval_Rejection</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>External_Data_Source</members>
+        <members>Use_Caution_Status</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>GlobalValueSetTranslation</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Group</name>
+    </types>
+    <types>
+        <members>CCMS_Activity__c-Activity Layout</members>
+        <members>CCMS_Attachment__c-Attachment Layout</members>
+        <members>CCMS_CIIT_Account__c-CCMS CIIT Account Layout</members>
+        <members>CCMS_CIIT_Enquiry__c-Enquiry Layout</members>
+        <members>CCMS_CIIT_Enquiry__c-External User Enquiry Layout</members>
+        <members>CCMS_CIIT_User_Register__c-CIIT User Register Layout</members>
+        <members>CCMS_Case_Entity__c-Case Entity Layout</members>
+        <members>CCMS_Case_Team_Member__c-Case Team Member Layout</members>
+        <members>CCMS_Case__c-CCMS Call Layout</members>
+        <members>CCMS_Case__c-CCMS Call Submitted</members>
+        <members>CCMS_Case__c-CCMS Case Close Layout</members>
+        <members>CCMS_Case__c-CCMS Case Layout</members>
+        <members>CCMS_Case__c-CCMS Case Under Approval Layout</members>
+        <members>CCMS_Company__c-CCMS Company Layout</members>
+		<members>CCMS_Company__c-EL Company Layout</members>
+        <members>CCMS_Contact_Information__c-Contact Information Layout</members>
+        <members>CCMS_Land_Parcels_Search__c-Land Parcels Search Layout</members>
+        <members>CCMS_Legislation__c-Legislation Layout</members>
+        <members>CCMS_Linked_Attachment__c-Linked Attachment Layout</members>
+        <members>CCMS_Linked_Land_Parcel__c-Linked Land Parcel Layout</members>
+        <members>CCMS_Linked_POI__c-Linked POI Layout</members>
+        <members>CCMS_Outcome__c-Advisory Letter</members>
+        <members>CCMS_Outcome__c-Enforceable undertaking</members>
+        <members>CCMS_Outcome__c-Interim Protection Order</members>
+        <members>CCMS_Outcome__c-No Action</members>
+        <members>CCMS_Outcome__c-Official Caution</members>
+        <members>CCMS_Outcome__c-Other</members>
+        <members>CCMS_Outcome__c-Penalty Notice</members>
+        <members>CCMS_Outcome__c-Prosecution</members>
+        <members>CCMS_Outcome__c-Remediation order</members>
+        <members>CCMS_Outcome__c-Warning Letter</members>
+        <members>CCMS_Person__c-Person Layout</members>
+		<members>CCMS_Person__c-EL Person Layout</members>
+        <members>CCMS_Prioritization_Assessment__c-Prioritization Assessment Layout</members>
+        <members>CCMS_Reference__c-Activity Layout</members>
+        <members>CCMS_Reference__c-Reference Layout</members>
+        <members>CCMS_Reference__c-Title Search Layout</members>
+        <members>CCMS_Region__c-Region Layout</members>
+        <members>CCMS_Regional_Officer__c-Regional Officer Layout</members>
+        <members>CCMS_Related_Entity__c-Case to Case</members>
+        <members>CCMS_Related_Entity__c-Company to Company</members>
+        <members>CCMS_Related_Entity__c-Company to Person</members>
+        <members>CCMS_Related_Entity__c-Company to Property</members>
+        <members>CCMS_Related_Entity__c-Person to Company</members>
+        <members>CCMS_Related_Entity__c-Person to Person</members>
+        <members>CCMS_Related_Entity__c-Person to Property</members>
+        <members>CCMS_Related_Entity__c-Related Entity Layout</members>
+        <members>CCMS_Running_Log__c-Entity Running Log Layout</members>
+        <members>CCMS_Running_Log__c-Running Log Layout</members>
+        <members>CCMS_Spatial_Information__c-Address</members>
+        <members>CCMS_Spatial_Information__c-Coordinates</members>
+        <members>CCMS_Spatial_Information__c-Entity Address</members>
+        <members>CCMS_Spatial_Information__c-Entity Land Parcel</members>
+        <members>CCMS_Spatial_Information__c-Land Parcel</members>
+        <members>CCMS_Spatial_Information__c-Spatial Information</members>
+        <members>CCMS_Suburb_Alias__c-Suburb Alias Layout</members>
+        <members>CCMS_Suburb__c-Suburb Layout</members>
+        <members>CCMS_Vehicle_Information__c-Vehicle Information Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>MatchingRule</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>MatchingRules</name>
+    </types>
+    <types>
+        <members>SetAuditFieldsAndInactiveOwner</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>CCMS Admin</members>
+        <members>CCMS Officer</members>
+        <members>CIIT Customer</members>
+        <members>ORG Environment Line Officer</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Compliance_Admin</members>
+        <name>Queue</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>CIITSearch</members>
+        <members>Title_Search</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <types>
+        <members>CCMS_Dashboard_Reports/Activities_for_approval</members>
+        <members>CCMS_Dashboard_Reports/Activities_for_completion</members>
+        <members>CCMS_Dashboard_Reports/Assigned_CIIT_Enquiries</members>
+        <members>CCMS_Dashboard_Reports/CCMS_My_Cases</members>
+        <members>CCMS_Dashboard_Reports/Cancellation_Outcome_Request_for_Review</members>
+        <members>CCMS_Dashboard_Reports/Cases_Terminated_due_to_incorrect_Agency</members>
+        <members>CCMS_Dashboard_Reports/Cases_Under_Investigation</members>
+        <members>CCMS_Dashboard_Reports/Cases_Under_Officer_Assigned</members>
+        <members>CCMS_Dashboard_Reports/Cases_with_Case_Created</members>
+        <members>CCMS_Dashboard_Reports/Cases_with_Incorrect_Agency</members>
+        <members>CCMS_Dashboard_Reports/Cases_with_Region_Assigned</members>
+        <members>CCMS_Dashboard_Reports/Closed_Cases</members>
+        <members>CCMS_Dashboard_Reports/Discontinued_Cases</members>
+        <members>CCMS_Dashboard_Reports/My_Assigned_Cases</members>
+        <members>CCMS_Dashboard_Reports/New_CIIT_EnquiriesV1</members>
+        <members>CCMS_Dashboard_Reports/Outcomes_Approved_Waiting_Completion</members>
+        <members>CCMS_Dashboard_Reports/Outcomes_for_Acknowledgement</members>
+        <members>CCMS_Dashboard_Reports/Outcomes_for_Review</members>
+        <members>CCMS_Dashboard_Reports/Rejected_Activities</members>
+        <members>CCMS_Dashboard_Reports/Running_Logs</members>
+        <members>CCMS_Reports/Call_creation_summary_by_Legislation</members>
+        <members>CCMS_Reports/Call_details_by_Location_Legislation</members>
+        <members>CCMS_Reports/Case_Close_Termination_Officer_reason</members>
+        <members>CCMS_Reports/Cases_by_status</members>
+        <members>CCMS_Reports/Open_Case_by_Region_Progress</members>
+        <members>CCMS_Reports/Open_case_by_CO_progress_as_Asst_CO</members>
+        <members>CCMS_Reports/Open_case_by_CO_progress_as_Lead_CO</members>
+        <members>CCMS_Reports/Open_cases_by_Officers_and_legislation</members>
+        <members>CCMS_Reports/Open_cases_by_Officers_status</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ReportType</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Role</name>
+    </types>
+    <types>
+        <members>CCMS_Activity__c</members>
+        <members>CCMS_Attachment__c</members>
+        <members>CCMS_Case_Entity__c</members>
+        <members>CCMS_Case_Team_Member__c</members>
+        <members>CCMS_Case__c</members>
+        <members>CCMS_Company__c</members>
+        <members>CCMS_Contact_Information__c</members>
+        <members>CCMS_Legislation__c</members>
+        <members>CCMS_Linked_Attachment__c</members>
+        <members>CCMS_Linked_Land_Parcel__c</members>
+        <members>CCMS_Logic_Disable_Flags__c</members>
+        <members>CCMS_Outcome__c</members>
+        <members>CCMS_Person__c</members>
+        <members>CCMS_Prioritization_Assessment__c</members>
+        <members>CCMS_Reference__c</members>
+        <members>CCMS_Region__c</members>
+        <members>CCMS_Regional_Officer__c</members>
+        <members>CCMS_Related_Entity__c</members>
+        <members>CCMS_Running_Log__c</members>
+        <members>CCMS_Spatial_Information__c</members>
+        <members>CCMS_Suburb__c</members>
+        <members>CCMS_Vehicle_Information__c</members>
+        <members>Org_Application_Log__c</members>
+        <name>SharingRules</name>
+    </types>
+    <types>
+        <members>CCMS_Activity__c</members>
+        <members>CCMS_Attachment__c</members>
+        <members>CCMS_CIIT_User_Register__c</members>
+        <members>CCMS_Case_Entity__c</members>
+        <members>CCMS_Case_Team_Member__c</members>
+        <members>CCMS_Case__c</members>
+        <members>CCMS_Company__c</members>
+        <members>CCMS_Contact_Information__c</members>
+        <members>CCMS_Legislation__c</members>
+        <members>CCMS_Linked_Attachment__c</members>
+        <members>CCMS_Linked_Land_Parcel__c</members>
+        <members>CCMS_Logic_Disable_Flags__c</members>
+        <members>CCMS_Outcome__c</members>
+        <members>CCMS_Person__c</members>
+        <members>CCMS_Prioritization_Assessment__c</members>
+        <members>CCMS_Reference__c</members>
+        <members>CCMS_Region__c</members>
+        <members>CCMS_Regional_Officer__c</members>
+        <members>CCMS_Related_Entity__c</members>
+        <members>CCMS_Running_Log__c</members>
+        <members>CCMS_Spatial_Information__c</members>
+        <members>CCMS_Suburb_Alias__c</members>
+        <members>CCMS_Suburb__c</members>
+        <members>CCMS_Vehicle_Information__c</members>
+        <members>Org_Application_Log__c</members>
+        <members>User</members>
+        <name>Workflow</name>
+    </types>
+    <version>41.0</version>
+</Package>
